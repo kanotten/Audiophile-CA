@@ -81,7 +81,7 @@ header {
         height: 728px;
     }
     .hero-banner-section {
-        background-image: url("../assets/home/tablet/image-header.jpg");
+        background-image: url("assets/home/tablet/image-header.jpg");
     }
     header {
         justify-content: flex-start;
@@ -103,7 +103,7 @@ header {
         padding-right: 0;
     }
     .hero-banner-section {
-        background-image: url("Audiophile-CA/assets/home/desktop/image-hero.jpg");
+        background-image: url("assets/home/desktop/image-hero.jpg");
         background-size: cover;
     }
     .menu-toggle-btn {
