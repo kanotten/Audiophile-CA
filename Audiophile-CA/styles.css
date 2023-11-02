@@ -40,18 +40,17 @@ body {
     top: 0;
 }
 .inner-banner {
-    background-color: yellow;
+    /* background-color: yellow; */
     position: relative;
     padding: 5%;
     margin: 5%;
-    top: 50%;
+    top: 25%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
 }
-.Top-title {
-    font-weight: 400;
-    font-size: .875rem;
-    line-height: 1.195rem;
-    letter-spacing: .625rem;
-    text-transform: uppercase;
+.list-container {
+    text-align: center;
 }
 header {
     display: flex;
