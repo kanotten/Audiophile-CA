@@ -30,6 +30,7 @@ body {
 }
 .hero-banner-section {
     background-image: url("assets/home/mobile/image-header.jpg");
+    /* background-color: red; */
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -37,6 +38,13 @@ body {
     height: 100%;
     position: absolute;
     top: 0;
+}
+.inner-banner {
+    background-color: yellow;
+    position: relative;
+    padding: 5%;
+    margin: 5%;
+    top: 50%;
 }
 .Top-title {
     font-weight: 400;
