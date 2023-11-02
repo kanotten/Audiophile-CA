@@ -5,29 +5,36 @@
     --quaternary: #FAFAFA;
     --primary-lighter: #fbaf85;
 }
+
 * {
     box-sizing: border-box;
 }
+
 body {
     font-family: 'Manrope', sans-serif;
     margin: 0;
     min-height: 100vh;
 }
+
 .inner-container {
     max-width: 1110px;
     height: 100%;
     margin: 0 auto;
 }
+
 #menu {
     display: none;
 }
+
 .hero-banner-inner-container {
     position: relative;
 }
+
 .out-container {
     background-color: #191919;
     height: 600px;
 }
+
 .hero-banner-section {
     background-image: url("assets/home/mobile/image-header.jpg");
     /* background-color: red; */
@@ -39,6 +46,7 @@ body {
     position: absolute;
     top: 0;
 }
+
 .inner-banner {
     /* background-color: yellow; */
     position: relative;
@@ -47,14 +55,16 @@ body {
     top: 220px;
     justify-content: center;
     align-items: center;
-    
+
 }
+
 .list-container {
     display: flex;
     flex-direction: column;
     text-align: center;
     align-items: center;
 }
+
 .header-param {
     color: #FAFAFA80;
     letter-spacing: .125rem;
@@ -64,25 +74,53 @@ body {
     letter-spacing: .625rem;
     text-transform: uppercase;
     margin: 0;
-    
+
 }
+
 .header-title {
     margin: 1.5rem 0;
     color: #FAFAFA;
     letter-spacing: .125rem;
     font-size: 2.0rem;
 }
+
 .header-content-text {
     font-weight: 500;
     font-size: .9375rem;
     line-height: 1.5625rem;
-    color:#FAFAFA80;
+    color: #FAFAFA80;
 }
-.main-content{
+
+.main-content {
     width: 100%;
     height: 100%;
     background-color: red;
+    position: relative;
+    display: flex;
 }
+
+.main-content-content {
+    position: relative;
+    width: 100%;
+    /* height: 80px; */
+    background-color: blue;
+    /* padding: 5px;
+    margin: 5px; */
+
+}
+
+.content-image {
+    background-image: url("assets/product-xx99-mark-one-headphones/mobile/image-category-page-preview.jpg");
+    /* background-color: red; */
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    /* top: 0; */
+}
+
 header {
     display: flex;
     justify-content: space-between;
@@ -92,9 +130,11 @@ header {
     position: relative;
     z-index: 2;
 }
+
 .nav-desktop {
     display: none;
 }
+
 #toggleBtn {
     background-color: transparent;
     border: none;
@@ -102,47 +142,58 @@ header {
 }
 
 /* Small (sm) */
-@media (min-width: 640px) {
-}
+@media (min-width: 640px) {}
+
 /* Medium (md) */
 @media (min-width: 768px) {
+
     /* Your styles for the medium breakpoint here */
     .out-container {
         height: 728px;
     }
+
     .hero-banner-section {
         background-image: url("assets/home/tablet/image-header.jpg");
     }
+
     header {
         justify-content: flex-start;
         gap: 42px;
     }
+
     header .checkout-btn {
         margin-left: auto;
     }
 }
+
 /* Large (lg) */
 @media (min-width: 1024px) {
     /* Your styles for the large breakpoint here */
 }
+
 /* Extra Large (xl) */
 @media (min-width: 1280px) {
+
     /* Your styles for the extra large breakpoint here */
     header {
         padding-left: 0;
         padding-right: 0;
     }
+
     .hero-banner-section {
         background-image: url("assets/home/desktop/image-hero.jpg");
         background-size: cover;
     }
+
     .menu-toggle-btn {
         display: none;
     }
+
     .nav-desktop {
         margin: 0 auto;
         display: block;
     }
+
     .nav-desktop ul {
         display: flex;
         gap: 34px;
@@ -150,6 +201,7 @@ header {
         padding: 0;
         margin: 0;
     }
+
     .nav-desktop a {
         color: white;
         text-decoration: none;
@@ -158,10 +210,13 @@ header {
         line-height: 25px;
         letter-spacing: 2px;
     }
-    .nav-desktop a:hover, .nav-desktop a:focus {
+
+    .nav-desktop a:hover,
+    .nav-desktop a:focus {
         color: var(--primary);
     }
 }
+
 /* 2XL (2xl) */
 @media (min-width: 1536px) {
     /* Your styles for the 2XL breakpoint here */
