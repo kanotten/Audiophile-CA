@@ -78,6 +78,11 @@ body {
     line-height: 1.5625rem;
     color:#FAFAFA80;
 }
+.main-content{
+    width: 100%;
+    height: 100%;
+    background-color: red;
+}
 header {
     display: flex;
     justify-content: space-between;
