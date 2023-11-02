@@ -29,7 +29,7 @@ body {
     height: 600px;
 }
 .hero-banner-section {
-    background-image: url("Audiophile-CA/assets/home/mobile/image-header.jpg");
+    background-image: url("assets/home/mobile/image-header.jpg");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -37,6 +37,13 @@ body {
     height: 100%;
     position: absolute;
     top: 0;
+}
+.Top-title {
+    font-weight: 400;
+    font-size: .875rem;
+    line-height: 1.195rem;
+    letter-spacing: .625rem;
+    text-transform: uppercase;
 }
 header {
     display: flex;
