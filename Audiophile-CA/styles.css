@@ -42,15 +42,41 @@ body {
 .inner-banner {
     /* background-color: yellow; */
     position: relative;
-    padding: 5%;
-    margin: 5%;
-    top: 25%;
+    /* padding: 5%; */
+    margin: 0 50px;
+    top: 220px;
     justify-content: center;
     align-items: center;
-    display: flex;
+    
 }
 .list-container {
+    display: flex;
+    flex-direction: column;
     text-align: center;
+    align-items: center;
+}
+.header-param {
+    color: #FAFAFA80;
+    letter-spacing: .125rem;
+    font-weight: 400;
+    font-size: .875rem;
+    line-height: 1.195rem;
+    letter-spacing: .625rem;
+    text-transform: uppercase;
+    margin: 0;
+    
+}
+.header-title {
+    margin: 1.5rem 0;
+    color: #FAFAFA;
+    letter-spacing: .125rem;
+    font-size: 2.0rem;
+}
+.header-content-text {
+    font-weight: 500;
+    font-size: .9375rem;
+    line-height: 1.5625rem;
+    color:#FAFAFA80;
 }
 header {
     display: flex;
