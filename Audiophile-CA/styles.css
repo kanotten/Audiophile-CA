@@ -122,26 +122,19 @@ body {
     width: 100%;
     height: 100%;
     /* padding:  50px 0; */
-    padding-right: 100px; /* Add padding to the right side */
-    padding-bottom: 100px; /* Add padding to the bottom */
+    padding-right: 100px; 
+    padding-bottom: 100px;
     padding-left: 100px; 
      
-     gap: 100px; /* Add 10px gap (padding) between grid items */
-     grid-template-columns: repeat(3, 1fr); /* Create a 3-column grid */
+     gap: 20px; 
+     /* grid-template-columns: repeat(3, 1fr); Create a 3-column grid */
 }
 
-.main-content {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
+.category-item {
     position: relative;
     width: 100%;
-    /* height: 80px; */
-    background-color: blue;
-    /* padding: 5px; */
-    /* margin: 5px; */
-
+    height: 100%;
+    background-color: pink;
 }
 
 .content-image {
@@ -150,13 +143,13 @@ body {
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
-    width: 100%;
-    height: 100%;
+    width: 50%;
+    height: 50%;
     /* margin: 5px; */
     display: flex;
     left: 50%;
     transform: translate(-50%);
-    position: relative;
+    position: absolute;
     /* top: 0; */
 }
 
