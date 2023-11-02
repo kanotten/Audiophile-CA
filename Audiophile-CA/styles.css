@@ -91,33 +91,72 @@ body {
     color: #FAFAFA80;
 }
 
-.main-content {
+.main-content-wrapper {
     width: 100%;
     height: 100%;
+
+    padding: 100px 40px;
     background-color: red;
     position: relative;
     display: flex;
 }
 
-.main-content-content {
+.outer-main {
+    width: 100%;
+    height: 100%;
+    
+  /* max-width: 69.375rem; */
+  display: flex;
+  flex-direction: column;
+}
+
+.main-container {
+    width: 100%;
+    height: 50%;
+}
+
+.categories {
+    display: grid;
+    background-color: blue;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+    height: 100%;
+    /* padding:  50px 0; */
+    padding-right: 100px; /* Add padding to the right side */
+    padding-bottom: 100px; /* Add padding to the bottom */
+    padding-left: 100px; 
+     
+     gap: 100px; /* Add 10px gap (padding) between grid items */
+     grid-template-columns: repeat(3, 1fr); /* Create a 3-column grid */
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
     position: relative;
     width: 100%;
     /* height: 80px; */
     background-color: blue;
-    /* padding: 5px;
-    margin: 5px; */
+    /* padding: 5px; */
+    /* margin: 5px; */
 
 }
 
 .content-image {
     background-image: url("assets/product-xx99-mark-one-headphones/mobile/image-category-page-preview.jpg");
-    /* background-color: red; */
+    background-color: yellow;
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
     width: 100%;
     height: 100%;
-    position: absolute;
+    /* margin: 5px; */
+    display: flex;
+    left: 50%;
+    transform: translate(-50%);
+    position: relative;
     /* top: 0; */
 }
 
