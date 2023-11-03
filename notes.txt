@@ -1,0 +1,12 @@
+
+Center horizontally
+justify-content: center; 
+
+Center vertically
+align-items: center; 
+
+// Add space OUTSIDE
+margin: 5px;
+
+// Add space INSIDE
+padding: 5px;
