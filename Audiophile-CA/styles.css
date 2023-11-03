@@ -122,8 +122,34 @@ body {
 
 .home-products-section {
     background-color: green;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
     /* width: 100%; */
     /* height: 100%; */
+}
+
+.product-home-one {
+    width: 100%;
+    background-color: #d87d4a;
+    padding: 3.4375rem 1.5rem;
+    border-radius: 0.5rem;
+    background-image: url(/assets/pattern-circles.1e4fdc35.svg);
+    background-size: 31.25rem;
+    background-position: center -100px;
+    background-repeat: no-repeat;
+
+}
+
+.product-home-one .product-home-one-image-container {
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.product-home-one .product-home-one-image-container .product-home-one-image {
+    margin-bottom: 2rem;
+    width: 10.765625rem;
 }
 
 .best-audio-section {
@@ -131,6 +157,58 @@ body {
     /* width: 100%; */
     /* height: 100%; */
 }
+
+.product-home-one-content {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.product-home-one-content .product-home-one-title {
+    text-align: center;
+    color: #fff;
+    font-size: 2.25rem;
+    text-transform: uppercase;
+}
+.product-home-one-content .product-home-one-text {
+    text-align: center;
+}
+.btn-gray {
+    background-color: #000;
+    color: #fff;
+    border-color: #000;
+}
+.btn-styles {
+    height: 3rem;
+    display: flex;
+    width: fit-content;
+    text-transform: uppercase;
+    font-size: .8125rem;
+    align-items: center;
+    font-weight: 700;
+    padding: 0 1.875rem;
+    border: 2px solid;
+}
+.product-home-two {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 6.3125rem 1.5rem;
+    border-radius: 0.5rem;
+    background-image: url();
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.product-home-two .product-home-two-title {
+    font-size: 1.75rem;
+    text-transform: uppercase;
+}
+
+
+
 
 .categories {
     display: grid;
@@ -160,9 +238,11 @@ body {
     display: flex;
     flex-direction: column;
 
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
-    
+    justify-content: center;
+    /* Center horizontally */
+    align-items: center;
+    /* Center vertically */
+
 }
 
 .product-home {
