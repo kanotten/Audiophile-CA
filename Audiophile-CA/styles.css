@@ -7,12 +7,14 @@
 }
 
 * {
+    padding: 0;
+    margin: 0;
     box-sizing: border-box;
 }
 
 body {
     font-family: 'Manrope', sans-serif;
-    margin: 0;
+    margin: 0; 
     min-height: 100vh;
 }
 
@@ -48,23 +50,27 @@ body {
 }
 
 .inner-banner {
-    /* background-color: yellow; */
-    position: relative;
-    /* padding: 5%; */
-    margin: 0 50px;
-    top: 220px;
+    padding: 0 3.25rem;
+    left: 50%;
+    transform: translate(-50%);
+    width: 100%;
+    max-width: 69.375rem;
+    position: absolute;
+    top: 5.625rem;
+    height: calc(100% - 5.625rem);
+    display: flex;
     justify-content: center;
     align-items: center;
 
 }
 
-/*.list-container {
+.list-container {
     display: flex;
     flex-direction: column;
     text-align: center;
     align-items: center;
 }
-*/
+
 .header-param {
     color: #FAFAFA80;
     letter-spacing: .125rem;
@@ -89,10 +95,19 @@ body {
     font-size: .9375rem;
     line-height: 1.5625rem;
     color: #FAFAFA80;
+    text-align: center;
 }
+
 .layout-category {
 padding: 2.5rem 1.5rem 7.5rem;
 }
+
+.main-container, .main-content {
+    width: 100%;
+    max-width: 69.375rem;
+    display: flex;
+    flex-direction: column;
+}   
 
 .main-container {
     background-color: #fafafa;
@@ -115,6 +130,9 @@ padding: 2.5rem 1.5rem 7.5rem;
     background-color: blue;
     /* padding: 5px;
     margin: 5px; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 
 }
 
@@ -124,13 +142,26 @@ section {
 input, div {
     outline: none;
 }
+image {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
 
-.category-item .content-image {
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.category-section .content-image {
     padding-top: 3.25rem;
     position: relative;
     width: 100%;
     margin-bottom: 1rem;
 }
+
 
 .content-image {
     background-color: red;
@@ -150,6 +181,25 @@ header {
     align-items: center;
     position: relative;
     z-index: 2;
+}
+.btn-default {
+    background-color: #d87d4a;
+    color: #fff;
+    border-color: #d87d4a;
+}
+.btn-styles {
+    height: 3rem;
+    display: flex;
+    width: fit-content;
+    text-transform: uppercase;
+    font-size: .8125rem;
+    align-items: center;
+    font-weight: 700;
+    padding: 0 1.875rem;
+    border: 2px solid;
+}
+.header-btn {
+    margin-top: 1.8125rem;
 }
 
 .nav-desktop {
