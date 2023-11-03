@@ -1,8 +1,8 @@
 
-Center horizontally
+Center vertically
 justify-content: center; 
 
-Center vertically
+Center horizontally
 align-items: center; 
 
 // Add space OUTSIDE

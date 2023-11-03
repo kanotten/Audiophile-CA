@@ -95,7 +95,7 @@ body {
     width: 100%;
     /* height: 100%; */
 
-    padding: 100px 40px;
+    padding: 40px 40px;
     background-color: red;
     position: relative;
     /* display: flex; */
@@ -258,10 +258,10 @@ body {
 
 .content-image {
     /* background-image: url("assets/product-xx99-mark-one-headphones/mobile/image-category-page-preview.jpg"); */
-    background-color: grey;
-    background-repeat: no-repeat;
+     background-color: grey;
+    /*background-repeat: no-repeat;
     background-size: contain;
-    /* background-position: center; */
+    background-position: center; */
     width: 100px;
     height: 100px;
     position: absolute;
@@ -273,11 +273,21 @@ body {
     /* position: absolute; */
 }
 
+.content-image-image{
+    /* background-image: url("assets/product-xx99-mark-one-headphones/mobile/image-category-page-preview.jpg"); */
+    width:100%;
+    background-color: yellow;
+    /* background-size: contain; */
+    /* background-repeat: no-repeat; */
+    object-fit: cover;
+    height:100%;
+}
+
 .category-content {
     background-color: green;
-    height: 100px;
+    height: 150px;
     width: 100%;
-    margin-top: 5.5rem;
+    margin-top: 3.5rem;
     /* background-color: geen;
     width: 100%;
     height: 50%;
