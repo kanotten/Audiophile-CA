@@ -98,12 +98,12 @@ body {
     padding: 100px 40px;
     background-color: red;
     position: relative;
-    display: flex;
+    /* display: flex; */
 }
 
 .main-container {
     background-color: blue;
-    /* position: relative; */
+   /* position: relative; */
     width: 100%;
     width: 100%;
     max-width: 69.375rem;
@@ -114,7 +114,7 @@ body {
 
 .categories-section {
     background-color: yellow;
-    position: static;
+    /* position: static; */
     display: flex;
     flex-direction: column;
 }
