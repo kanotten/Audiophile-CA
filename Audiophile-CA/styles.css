@@ -354,7 +354,7 @@ img {
 
 .content-image {
     /* background-image: url("assets/product-xx99-mark-one-headphones/mobile/image-category-page-preview.jpg"); */
-    background-color: grey;
+    background-color: blue;
     /*background-repeat: no-repeat;
     background-size: contain;
     background-position: center; */
@@ -369,14 +369,11 @@ img {
     /* position: absolute; */
 }
 
-.content-image-image {
-    /* background-image: url("assets/product-xx99-mark-one-headphones/mobile/image-category-page-preview.jpg"); */
+.my-image {
     width: 100%;
-    background-color: yellow;
-    /* background-size: contain; */
-    /* background-repeat: no-repeat; */
-    object-fit: cover;
     height: 100%;
+    /* background-color: yellow; */
+    object-fit: contain;
 }
 
 .category-content {
