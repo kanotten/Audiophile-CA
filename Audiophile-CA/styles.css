@@ -208,7 +208,7 @@ body {
     gap: 2rem;
     padding: 6.3125rem 1.5rem;
     border-radius: 0.5rem;
-    background-image: url();
+    background-image: url(assets/home/mobile/image-speaker-zx7.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -217,7 +217,6 @@ body {
     font-size: 1.75rem;
     text-transform: uppercase;
 }
-
 
 .product-home-three {
     width: 100%;
