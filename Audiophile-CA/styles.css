@@ -244,6 +244,7 @@ body {
 
 .best-audio-section .best-audio-image {
     width: 100%;
+    height: auto;
     border-radius: 0.5rem;
 }
 
@@ -276,6 +277,7 @@ h2 {
     color: #fff;
     border-color: #000;
 }
+
 .btn-styles {
     height: 3rem;
     display: flex;
@@ -287,7 +289,11 @@ h2 {
     padding: 0 1.875rem;
     border: 2px solid;
 }
-button, a, input, div {
+
+button,
+a,
+input,
+div {
     outline: none;
 }
 
@@ -346,10 +352,7 @@ button, a, input, div {
     background-color: pink;
 }
 
-img {
-    overflow-clip-margin: content-box;
-    overflow: clip;
-}
+
 
 .content-image {
     background-color: blue;
@@ -373,7 +376,8 @@ img {
     margin-bottom: 1.0625rem;
     color: #e8e6e3;
 }
-.content-shop-button{
+
+.content-shop-button {
     margin: 0 auto;
     gap: .8125rem;
     border-color: currentcolor;
@@ -382,6 +386,7 @@ img {
     height: auto;
     border: none;
 }
+
 .category-content {
     background-color: green;
     height: 150px;
