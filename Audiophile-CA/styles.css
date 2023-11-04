@@ -35,7 +35,7 @@ body {
 .out-container {
     background-color: #191919;
     height: 600px;
-    
+
 }
 
 .hero-banner-section {
@@ -181,6 +181,11 @@ body {
 .btn-gray {
     background-color: #000;
     color: #fff;
+    border-color: #000;
+}
+
+.btn-black {
+    color: #000;
     border-color: #000;
 }
 
@@ -440,7 +445,7 @@ header {
     header .checkout-btn {
         margin-left: auto;
     }
-    
+
     .categories-section {
         display: flex;
         flex-direction: row;
