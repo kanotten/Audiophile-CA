@@ -352,38 +352,36 @@ img {
 }
 
 .content-image {
-    /* background-image: url("assets/product-xx99-mark-one-headphones/mobile/image-category-page-preview.jpg"); */
     background-color: blue;
-    /*background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center; */
     width: 100px;
     height: 100px;
     position: absolute;
     top: 0;
-
-    /* display: flex; */
-    /* left: 50%; */
-    /* transform: translate(-50%); */
-    /* position: absolute; */
 }
 
 .my-image {
     width: 100%;
     height: 100%;
-    /* background-color: yellow; */
     object-fit: contain;
 }
 
+.category-title {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: .9375rem;
+    margin-bottom: 1.0625rem;
+    color: #e8e6e3;
+}
+.content-shop-button{
+    margin: 0 auto;
+}
 .category-content {
     background-color: green;
     height: 150px;
     width: 100%;
     margin-top: 3.5rem;
-    /* background-color: geen;
-    width: 100%;
-    height: 50%;
-    padding-top: 5.5rem; */
+    padding-top: 3rem;
+    text-align: center;
 }
 
 header {
