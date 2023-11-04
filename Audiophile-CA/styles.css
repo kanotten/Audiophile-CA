@@ -270,6 +270,29 @@ h2 {
 }
 
 
+element.style {
+}
+.btn-gray {
+    background-color: #000;
+    color: #fff;
+    border-color: #000;
+}
+.btn-styles {
+    height: 3rem;
+    display: flex;
+    width: fit-content;
+    text-transform: uppercase;
+    font-size: .8125rem;
+    align-items: center;
+    font-weight: 700;
+    padding: 0 1.875rem;
+    border: 2px solid;
+}
+button, a, input, div {
+    outline: none;
+}
+
+
 .best-audio-section .best-audio-content .best-audio-title-span {
     color: #d87d4a;
 }
