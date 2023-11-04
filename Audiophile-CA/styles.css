@@ -7,6 +7,8 @@
 }
 
 * {
+    padding: 0;
+    margin: 0;
     box-sizing: border-box;
 }
 
@@ -269,9 +271,6 @@ h2 {
     font-weight: bold;
 }
 
-
-element.style {
-}
 .btn-gray {
     background-color: #000;
     color: #fff;
