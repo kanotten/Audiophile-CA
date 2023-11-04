@@ -306,7 +306,9 @@ div {
 }
 
 
-
+.main-container {
+    gap: 7.5rem;
+}
 
 
 .categories {
