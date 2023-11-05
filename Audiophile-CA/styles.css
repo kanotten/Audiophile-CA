@@ -508,6 +508,11 @@ header {
         display: flex;
         flex-direction: row;
     }
+
+    #nav-footer {
+        flex-direction: row;
+        gap: 2.125rem;
+    }
 }
 
 /* Large (lg) */
