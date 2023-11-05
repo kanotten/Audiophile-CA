@@ -528,6 +528,14 @@ li a {
     display: block;
 }
 
+.footer-icons-section {
+    margin-top: 3rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
 
 
 /* Small (sm) */
