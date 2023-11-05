@@ -299,12 +299,15 @@ input,
 div {
     outline: none;
 }
+
 .text-center {
     text-align: center;
 }
+
 .text-white {
     color: #fafafa80;
 }
+
 .text-default {
     font-weight: 500;
     font-size: .9375rem;
@@ -471,7 +474,7 @@ li a {
     width: 6.3125rem;
     height: 0.25rem;
     background-color: #d87d4a;
-   
+    margin: 0 auto 3rem;
 
 }
 
@@ -546,11 +549,13 @@ li a {
 
 /* Large (lg) */
 @media (min-width: 1024px) {
+
     /* Your styles for the large breakpoint here */
     .footer .footer-container .footer-content .footer-section {
         flex-direction: row;
         gap: 2.125rem;
     }
+
     ul {
         display: block;
         list-style-type: disc;
@@ -602,7 +607,7 @@ li a {
         margin: 0;
     }
 
-     ul {
+    ul {
         display: block;
         list-style-type: disc;
         margin-block-start: 1em;
