@@ -495,6 +495,11 @@ li a {
 @media (min-width: 768px) {
 
     /* Your styles for the medium breakpoint here */
+    .footer .footer-container .footer-content .footer-section {
+        align-items: initial;
+        gap: 2rem;
+    }
+
     .out-container {
         height: 728px;
     }
@@ -526,12 +531,31 @@ li a {
 /* Large (lg) */
 @media (min-width: 1024px) {
     /* Your styles for the large breakpoint here */
+    .footer .footer-container .footer-content .footer-section {
+        flex-direction: row;
+        gap: 2.125rem;
+    }
+    ul {
+        display: block;
+        list-style-type: disc;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        padding-inline-start: 40px;
+    }
 }
+
 
 /* Extra Large (xl) */
 @media (min-width: 1280px) {
 
     /* Your styles for the extra large breakpoint here */
+    .footer .footer-container .footer-content .footer-section {
+        flex-direction: row;
+        gap: 2.125rem;
+    }
+
     header {
         padding-left: 0;
         padding-right: 0;
