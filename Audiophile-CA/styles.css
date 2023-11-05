@@ -61,6 +61,27 @@ body {
 
 }
 
+.popup-box {
+    position: fixed;
+    top: 5.625rem;
+    left: 0;
+    width: 100%;
+    height: calc(100% - 5.625rem);
+    z-index: 2;
+    overflow: auto;
+}
+
+.popup-menu {
+    width: 100%;
+    background-color: purple;
+    padding: 2.1875rem 1.5rem;
+    border-radius: 0 0 0.5rem 0.5rem;
+    clip-path: inset(0%);
+}
+    
+    
+
+
 .list-container {
     display: flex;
     flex-direction: column;
@@ -421,10 +442,11 @@ header {
     padding: 2rem 1.5rem;
     border-bottom: 1px solid rgb(151 151 151 / 10%);
     align-items: center;
-    position: sticky;
+    position: fixed;
     top: 0;
     z-index: 2;
     background-color: black;
+    width: 100%;
 }
 
 
