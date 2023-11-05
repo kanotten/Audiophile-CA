@@ -436,6 +436,18 @@ header {
     gap: 1rem;
 }
 
+#nav-footer .nav-footer-item {
+    color: #fafafa;
+    font-size: .8125rem;
+    line-height: 1.5625rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.footer .footer-container .footer-content .footer-text {
+    margin: 3rem 0;
+}
+
 li a {
     display: block;
     color: white;
