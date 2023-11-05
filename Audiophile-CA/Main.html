@@ -240,8 +240,10 @@
             // HIDE THE MENU
             if (menu.style.opacity == 1) {
                 menu.style.opacity = 0;
+                document.body.style.overflow = 'visible'; 
             } else {
                 menu.style.opacity = 1;
+                document.body.style.overflow = 'hidden'; 
             }
 
             document.body.classList.toggle('new-class');
