@@ -56,7 +56,7 @@
                     </svg>
                 </span>
             </header>
-            <div class="popup-box">
+            <div class="popup-box" id="popup-box-id">
                 <div class="popup-menu">
                 </div>
 
@@ -195,24 +195,21 @@
             </div>
         </footer>
         <!--MENU-->
-        <div id="menu">
-            the menu we want to hide and show
-        </div>
     </div>
 
     <script>
         document.getElementById("toggleBtn").addEventListener("click", function () {
-            let menu = document.getElementById("menu");
+            let menu = document.getElementById("popup-box-id");
             // IF THE MENU IS NOT SHOWING (HIDDEN)
             // SHOW THE MENU
             //
             // ELSE
             //
             // HIDE THE MENU
-            if (menu.style.display === "none" || menu.style.display === "") {
-                menu.style.display = "block";
+            if (menu.style.opacity == 1) {
+                menu.style.opacity = 0;
             } else {
-                menu.style.display = "none";
+                menu.style.opacity = 1;
             }
         });
     </script>

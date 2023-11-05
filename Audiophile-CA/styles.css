@@ -63,6 +63,7 @@ body {
 
 .popup-box {
     position: fixed;
+    opacity: 0;
     top: 5.625rem;
     left: 0;
     width: 100%;
