@@ -471,7 +471,7 @@ li a {
     width: 6.3125rem;
     height: 0.25rem;
     background-color: #d87d4a;
-    margin: 0 auto 3rem;
+   
 
 }
 
@@ -510,6 +510,10 @@ li a {
     .footer .footer-container .footer-content .footer-section {
         align-items: initial;
         gap: 2rem;
+    }
+
+    .footer .footer-container .footer-line {
+        margin: 0 0 3rem;
     }
 
     .out-container {
