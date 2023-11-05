@@ -424,10 +424,12 @@ header {
     background-color: black;
 }
 
+
 .nav-desktop {
     display: none;
     gap: 1rem;
 }
+
 
 #toggleBtn {
     background-color: transparent;
@@ -462,7 +464,7 @@ header {
 }
 
 .footer {
-    padding: 0 1.5rem rem 2.375rem;
+    padding: 0 1.5rem 2.375rem;
     background-color: #101010;
     width: 100%;
     display: flex;
@@ -531,6 +533,11 @@ header {
         display: block;
         gap: 1rem;
     }
+
+#nav-footer {
+    display: flex;
+    
+}
 
     .nav-desktop ul {
         display: flex;
