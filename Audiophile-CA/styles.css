@@ -89,6 +89,19 @@ body {
     display: flex;
 }
 
+.tranparent-container .cart-wrapper .shopping-cart-container {
+    width: 100%;
+    max-width: 23.5625rem;
+    height: 30.5rem;
+    border-radius: 0.5rem;
+    background-color: #fff;
+    margin-left: auto;
+    padding: 2rem 1.75rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
 .popup-box {
     position: fixed;
     top: 5.625rem;
@@ -566,6 +579,10 @@ hr {
 @media (min-width: 768px) {
 
     /* Your styles for the medium breakpoint here */
+
+    .tranparent-background-container .shopping-cart-wrapper .shopping-cart-container {
+        padding: 1.9375rem 2.0625rem;
+    }
 
     .tranparent-container .cart-wrapper .shopping-cart-container {
         padding: 1.9375rem 2.0625rem;
