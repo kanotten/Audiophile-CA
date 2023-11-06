@@ -235,7 +235,7 @@ body {
 
     padding: 2.5rem 1.5rem 7.5rem;
     background-color: red;
-    position: relative;
+    position: static;
     /* display: flex; */
 }
 
@@ -248,6 +248,19 @@ body {
     display: flex;
     margin: auto;
     flex-direction: column;
+}
+
+.product-category {
+    position: relative;
+    width: 100%;
+    background-color: yellow;
+    padding: 0;
+    margin: 0;
+}
+
+.category-product-image {
+    width: 100%;
+    position: relative;
 }
 
 .categories-section {
