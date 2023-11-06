@@ -561,6 +561,8 @@ body {
 
 .product-home-three {
     width: 100%;
+    display: grid;
+    
 }
 
 .product-home-three .product-home-three-image {
@@ -977,6 +979,11 @@ hr {
 
     .checkout-product {
         padding: 2rem;
+    }
+
+    .product-home-three {
+        grid-template-columns: 1fr 1fr;
+        column-gap: 1.875rem;
     }
 }
 
