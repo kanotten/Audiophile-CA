@@ -635,44 +635,45 @@ hr {
         padding-left: 5.9375rem;
         background-image: url(assets/home/desktop/image-speaker-zx7.jpg);
     }
-}
 
-.footer .footer-container .footer-content .footer-section {
-    flex-direction: row;
-    gap: 2.125rem;
-}
 
-.footer .footer-container .footer-content .footer-icons-section {
-    top: 50%;
-    bottom: unset;
-    transform: translateY(-50%);
-}
+    .footer .footer-container .footer-content .footer-section {
+        flex-direction: row;
+        gap: 2.125rem;
+    }
 
-.footer-section {
-    flex-direction: row;
-    justify-content: space-between;
-}
+    .footer .footer-container .footer-content .footer-icons-section {
+        top: 50%;
+        bottom: unset;
+        transform: translateY(-50%);
+    }
 
-.footer .footer-container .footer-content .footer-text {
-    width: 33.75rem;
-    margin-top: 2.25rem;
-    margin-bottom: 3.5rem;
-}
+    .footer-section {
+        flex-direction: row;
+        justify-content: space-between;
+    }
 
-ul {
-    display: block;
-    list-style-type: disc;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 40px;
-}
+    .footer .footer-container .footer-content .footer-text {
+        width: 33.75rem;
+        margin-top: 2.25rem;
+        margin-bottom: 3.5rem;
+    }
 
-.footer .footer-container .footer-content .footer-icons-section {
-    top: 50%;
-    bottom: unset;
-    transform: translateY(-50%);
+    ul {
+        display: block;
+        list-style-type: disc;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        padding-inline-start: 40px;
+    }
+
+    .footer .footer-container .footer-content .footer-icons-section {
+        top: 50%;
+        bottom: unset;
+        transform: translateY(-50%);
+    }
 }
 
 /* Extra Large (xl) */
