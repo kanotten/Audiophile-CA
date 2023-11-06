@@ -996,12 +996,20 @@ hr {
     .product-home-one-content .product-home-one-title {
         font-size: 3.5rem;
     }
+
+    .product-home-one-content {
+        width: 21.8125rem;
+    }
 }
 
 /* Large (lg) */
 @media (min-width: 1024px) {
 
     /* Your styles for the large breakpoint here */
+
+    .product-home-one-content {
+        align-items: initial;
+    }
 
     .product-home-one-content .product-home-one-text {
         text-align: left;
