@@ -102,6 +102,13 @@ body {
     gap: 1.5rem;
 }
 
+.cart-section {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 .popup-box {
     position: fixed;
     top: 5.625rem;
@@ -599,10 +606,6 @@ hr {
 @media (min-width: 768px) {
 
     /* Your styles for the medium breakpoint here */
-
-    .tranparent-background-container .shopping-cart-wrapper .shopping-cart-container {
-        padding: 1.9375rem 2.0625rem;
-    }
 
     .tranparent-container .cart-wrapper .shopping-cart-container {
         padding: 1.9375rem 2.0625rem;
