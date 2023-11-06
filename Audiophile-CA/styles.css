@@ -888,30 +888,7 @@ hr {
         bottom: unset;
         transform: translateY(-50%);
     }
-}
 
-/* Extra Large (xl) */
-@media (min-width: 1280px) {
-
-    /* Your styles for the extra large breakpoint here */
-    .footer .footer-container .footer-content .footer-section {
-        flex-direction: row;
-        gap: 2.125rem;
-    }
-
-    header {
-        padding-left: 0;
-        padding-right: 0;
-    }
-
-    .hero-banner-section {
-        background-image: url("assets/home/desktop/image-hero.jpg");
-        background-size: cover;
-    }
-
-    .menu-toggle-btn {
-        display: none;
-    }
 
     .nav-desktop {
         margin: 0 auto;
@@ -950,6 +927,21 @@ hr {
     .nav-desktop a:focus {
         color: var(--primary);
     }
+
+    .menu-toggle-btn {
+        display: none;
+    }
+
+    .hero-banner-section {
+        background-image: url("assets/home/desktop/image-hero.jpg");
+        background-size: cover;
+    }
+}
+
+/* Extra Large (xl) */
+@media (min-width: 1280px) {
+
+    
 }
 
 /* 2XL (2xl) */
