@@ -339,6 +339,12 @@ body {
     border-color: #000;
 }
 
+.btn-default {
+    background-color: #d87d4a;
+    color: #fff;
+    border-color: #d87d4a;
+}
+
 .btn-styles {
     height: 3rem;
     display: flex;
