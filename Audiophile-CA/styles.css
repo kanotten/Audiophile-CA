@@ -562,7 +562,7 @@ body {
 .product-home-three {
     width: 100%;
     display: grid;
-    
+
 }
 
 .product-home-three .product-home-three-image {
@@ -881,7 +881,7 @@ hr {
     .product-home-three-image {
         content:url("assets/copied/image-earphones-yx1-tablet.jpg");
     }
-    
+
     .best-audio-image {
         content:url("assets/copied/headphones-tablet-1.jpg");
     }
@@ -999,6 +999,16 @@ hr {
 @media (min-width: 1024px) {
 
     /* Your styles for the large breakpoint here */
+
+    .product-home-one {
+        height: 35rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 8.625rem;
+        place-items: center;
+        background-position: -90px -50px;
+        padding: 0 5.9375rem;
+    }
 
     .checkout-product {
         margin-top: 0;
