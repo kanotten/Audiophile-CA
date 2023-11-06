@@ -424,6 +424,8 @@ body {
 
 .product-category {
     position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     width: 100%;
     /* background-color: yellow; */
     padding: 0;
@@ -879,11 +881,11 @@ hr {
     }
 
     .product-home-three-image {
-        content:url("assets/copied/image-earphones-yx1-tablet.jpg");
+        content: url("assets/copied/image-earphones-yx1-tablet.jpg");
     }
 
     .best-audio-image {
-        content:url("assets/copied/headphones-tablet-1.jpg");
+        content: url("assets/copied/headphones-tablet-1.jpg");
     }
 
     .checkout-form-section .checkout-form-inputs .form-details-inputs {
@@ -993,6 +995,7 @@ hr {
         grid-template-columns: 1fr 1fr;
         column-gap: 1.875rem;
     }
+
     .product-home-one-content .product-home-one-title {
         font-size: 3.5rem;
     }
@@ -1000,9 +1003,11 @@ hr {
     .product-home-one-content {
         width: 21.8125rem;
     }
+
     #speaker-image-id-1 {
         content: url("assets/copied/speaker-1-tablet.jpg");
     }
+
     #speaker-image-id-2 {
         content: url("assets/copied/speaker-2-tablet.jpg");
     }
@@ -1184,10 +1189,6 @@ hr {
         width: 100% !important;
     }
 
-    .category-product-image {
-        width: 50%;
-        margin-bottom: 0;
-    }
 }
 
 /* Extra Large (xl) */
