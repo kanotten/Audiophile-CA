@@ -355,8 +355,20 @@ body {
 
 .category-product-title {
     text-transform: uppercase;
-  font-size: 1.75rem;
+    font-size: 1.75rem;
 }
+
+.text-beige {
+    color: #d87d4a;
+}
+
+.text-new {
+    font-weight: 400;
+    font-size: .875rem;
+    line-height: 1.195rem;
+    letter-spacing: .625rem;
+    text-transform: uppercase;
+  }
 
 .categories-section {
     background-color: yellow;
@@ -881,6 +893,7 @@ hr {
     .footer .footer-container .footer-content .footer-copy {
         text-align: unset;
     }
+
     .checkout-main-container .main-container .checkout-wrapper .checkout-form-section-title {
         font-size: 2rem;
     }
@@ -1032,10 +1045,7 @@ hr {
 }
 
 /* Extra Large (xl) */
-@media (min-width: 1280px) {
-
-
-}
+@media (min-width: 1280px) {}
 
 /* 2XL (2xl) */
 @media (min-width: 1536px) {
