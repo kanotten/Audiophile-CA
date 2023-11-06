@@ -724,6 +724,10 @@ hr {
 
     /* Your styles for the medium breakpoint here */
 
+    .main-container {
+        gap: 6rem;
+    }
+
     .layout-checkout {
         padding: 3rem 2.5rem 7.25rem;
     }
@@ -810,6 +814,9 @@ hr {
 @media (min-width: 1024px) {
 
     /* Your styles for the large breakpoint here */
+    @media (min-width: 64rem) .main-container {
+        gap: 10rem;
+    }
 
     .layout-checkout {
         background-color: #f1f1f1;
