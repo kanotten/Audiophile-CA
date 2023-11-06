@@ -535,6 +535,10 @@ body {
     border-color: #d87d4a;
 }
 
+#hero-button-id {
+    margin-top: 2rem;
+}
+
 .btn-default:disabled {
     background-color: #fbaf85;
     border-color: #fbaf85;
