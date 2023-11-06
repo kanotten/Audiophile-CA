@@ -1,14 +1,265 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Audiophile || Earphones</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='styles.css'>
-    <script src='main.js'></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet" />
+    <script src='script.js'></script>
 </head>
+
 <body>
-    
+    <div class="out-container">
+        <nav class="navbar">
+            <!--BURGER MENU BTN-->
+            <button type="button" id="toggleBtn" class="menu-toggle-btn">
+                <svg width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g id="Group">
+                        <rect id="Rectangle" width="16" height="3" fill="white" />
+                        <rect id="Rectangle Copy" y="6" width="16" height="3" fill="white" />
+                        <rect id="Rectangle Copy 2" y="12" width="16" height="3" fill="white" />
+                    </g>
+                </svg>
+            </button>
+            <!--LOGO-->
+            <span>
+                <a href="Main.html">
+                    <img src="assets/shared/desktop/logo.svg" alt="Logo">
+                </a>
+            </span>
+            <!--SITE NAV DESKTOP-->
+            <nav class="nav-desktop">
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">HEADPHONES</a></li>
+                    <li><a href="#">SPEAKERS</a></li>
+                    <li><a href="#">EARPHONES</a></li>
+                </ul>
+            </nav>
+            <!--CHECKOUT BTN-->
+            <button type="button" class="checkout-btn" id="checkout-btn-id">
+                <img src="assets/shared/desktop/icon-cart.svg">
+            </button>
+        </nav>
+        <header class="category-header">
+            <div class="category-header-container">
+                <h1 class="category-header-title">headphones</h1>
+            </div>
+        </header>
+        <div class="cart-back-container transparent-container" id="cart-back-container-id">
+            <div class="cart-wrapper">
+                <div class="shopping-cart-container">
+                    <section class="cart-section">
+
+                        <div class="cart-section-header">
+                            <p class="cart-list-size">
+                                cart
+                                (0)
+                            </p>
+                            <button class="remove-all-button">Remove all</button>
+                        </div>
+
+                        <div class="cart-list">
+                            <p class="text-default text-black empty-text">
+                                "Your cart is empty"
+                            </p>
+                        </div>
+                        <div class="cart-section-footer">
+                            <p class="text-default text-black total-text">
+                                Total
+                            </p>
+                            <p class="total-price">$0</p>
+                        </div>
+                    </section>
+                    <a class="btn-styles btn-default checkout-button" href="#/checkout">Checkout</a>
+                </div>
+            </div>
+        </div>
+        <div class="popup-box" id="popup-box-id">
+            <div class="popup-menu">
+                <section class="categories-section">
+                    <div class="category-item">
+                        <div class="content-image">
+                            <img class="my-image" src="assets/copied/image-category-thumbnail-headphones.png">
+                        </div>
+                        <div class="category-content">
+                            <p class="category-title">headphones</p>
+                            <a class="btn-styles content-shop-button" href="headphones.html">shop <img
+                                    src="assets/shared/desktop/icon-arrow-right.svg"></a>
+                        </div>
+                    </div>
+                    <div class="category-item">
+                        <div class="content-image">
+                            <img class="my-image" src="assets/copied/image-category-thumbnail-speakers.png">
+                        </div>
+                        <div class="category-content">
+                            <p class="category-title">speakers</p>
+                            <a class="btn-styles content-shop-button" href="speakers.html">shop <img
+                                    src="assets/shared/desktop/icon-arrow-right.svg"></a>
+                        </div>
+                    </div>
+                    <div class="category-item">
+                        <div class="content-image">
+                            <img class="my-image" src="assets/copied/image-category-thumbnail-earphones.png">
+                        </div>
+                        <div class="category-content">
+                            <p class="category-title">earphones</p>
+                            <a class="btn-styles content-shop-button" href="earphones.html">shop <img
+                                    src="assets/shared/desktop/icon-arrow-right.svg"></a>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+        </div>
+
+        <main class="main-content-wrapper layout-category">
+            <div class="main-container">
+
+                <section class="product-category">
+                    <img class="category-product-image"
+                        src="assets/product-xx59-headphones/mobile/image-category-page-preview.jpg">
+                    <div class="category-product-details">
+                        <h2 class="category-product-title">XX59 Headphones</h2>
+                        <p class="text-default text-black">
+                            Enjoy your audio almost anywhere and customize it to your specific tastes with the XX59
+                            headphones. The stylish
+                            yet durable versatile wireless headset is a brilliant companion at home or on the move.
+                        </p>
+                        <a class="btn-styles btn-default">
+                            See Product
+                        </a>
+                    </div>
+                </section>
+
+                <section class="product-category">
+                    <img class="category-product-image"
+                        src="assets/product-xx99-mark-one-headphones/mobile/image-category-page-preview.jpg">
+                    <div class="category-product-details">
+                        <h2 class="category-product-title">XX99 Mark I Headphones</h2>
+                        <p class="text-default text-black">
+                            As the gold standard for headphones, the classic XX99 Mark I offers detailed and accurate
+                            audio reproduction for audiophiles, mixing engineers, and music aficionados alike in studios
+                            and on the go.
+                        </p>
+                        <a class="btn-styles btn-default">
+                            See Product
+                        </a>
+                    </div>
+                </section>
+
+                <section class="product-category">
+                    <img class="category-product-image"
+                        src="assets/product-xx99-mark-two-headphones/mobile/image-category-page-preview.jpg">
+                    <div class="category-product-details">
+                        <p class="text-new text-beige">New Product</p>
+                        <h2 class="category-product-title">XX99 Mark II Headphones</h2>
+                        <p class="text-default text-black">
+                            The new XX99 Mark II headphones is the pinnacle of pristine audio. It redefines your premium
+                            headphone experience by reproducing the balanced depth and precision of studio-quality
+                            sound.
+                        </p>
+                        <a class="btn-styles btn-default">
+                            See Product
+                        </a>
+                    </div>
+                </section>
+
+                <section class="categories-section">
+                    <div class="category-item">
+                        <div class="content-image">
+                            <img class="my-image" src="assets/copied/image-category-thumbnail-headphones.png">
+                        </div>
+                        <div class="category-content">
+                            <p class="category-title">headphones</p>
+                            <a class="btn-styles content-shop-button" href="headphones.html">shop <img
+                                    src="assets/shared/desktop/icon-arrow-right.svg"></a>
+                        </div>
+                    </div>
+                    <div class="category-item">
+                        <div class="content-image">
+                            <img class="my-image" src="assets/copied/image-category-thumbnail-speakers.png">
+                        </div>
+                        <div class="category-content">
+                            <p class="category-title">speakers</p>
+                            <a class="btn-styles content-shop-button" href="speakers.html">shop <img
+                                    src="assets/shared/desktop/icon-arrow-right.svg"></a>
+                        </div>
+                    </div>
+                    <div class="category-item">
+                        <div class="content-image">
+                            <img class="my-image" src="assets/copied/image-category-thumbnail-earphones.png">
+                        </div>
+                        <div class="category-content">
+                            <p class="category-title">earphones</p>
+                            <a class="btn-styles content-shop-button" href="earphones.html">shop <img
+                                    src="assets/shared/desktop/icon-arrow-right.svg"></a>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="best-audio-section">
+                    <img class="best-audio-image"
+                        src="assets/product-xx99-mark-two-headphones/mobile/image-gallery-1.jpg">
+                    <div class="best-audio-content">
+                        <h2 class="best-audio-title">
+                            Bringing you the
+                            <span class="best-audio-title-span">best</span>
+                            audio gear
+                        </h2>
+                        <p class="text-default text-black undefined undefined">Located at the heart of New York City,
+                            Audiophile is the premier store for high end headphones, earphones, speakers, and audio
+                            accessories. We have a large showroom and luxury demonstration rooms available for you to
+                            browse and experience a wide range of our products. Stop by our store to meet some of the
+                            fantastic people who make Audiophile the best place to buy your portable audio equipment.
+                        </p>
+                    </div>
+                </section>
+
+            </div>
+        </main>
+
+        <footer class="footer">
+            <div class="footer-container">
+                <hr class="footer-line">
+                <div class="footer-content">
+                    <section class="footer-section">
+                        <a href="Main.html">
+                            <img src="assets/shared/desktop/logo.svg" alt="Logo">
+                        </a>
+                        <ul class="nav-desktop" id="nav-footer">
+                            <li><a class="nav-footer-item" href="#">HOME</a></li>
+                            <li><a class="nav-footer-item" href="#">HEADPHONES</a></li>
+                            <li><a class="nav-footer-item" href="#">SPEAKERS</a></li>
+                            <li><a class="nav-footer-item" githref="#">EARPHONES</a></li>
+                        </ul>
+                    </section>
+                    <p class="text-default text-white text-center footer-text">
+                        Audiophile is an all in one stop to fulfill your audio needs. We're a small team of music lovers
+                        and sound specialists who are devoted to helping you get the most out of personal audio. Come
+                        and visit our demo facility - we’re open 7 days a week.
+                    </p>
+                    <p class="text-default text-white text-center footer-copy">Copyright 2021. All Rights Reserved</p>
+                    <section class="footer-icons-section">
+                        <a class="footer-icon" target="_blank" href="https://www.facebook.com/">
+                            <img src="assets/shared/desktop/icon-facebook.svg" alt="Facebook Logo">
+                        </a>
+                        <a>
+                            <img src="assets/shared/desktop/icon-twitter.svg" alt="Twitter Logo">
+                        </a>
+                        <a>
+                            <img src="assets/shared/desktop/icon-instagram.svg" alt="Instagram Logo">
+                        </a>
+                    </section>
+                </div>
+            </div>
+        </footer>
+        <!--MENU-->
+    </div>
 </body>
+
 </html>
