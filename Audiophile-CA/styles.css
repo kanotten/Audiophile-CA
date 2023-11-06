@@ -203,6 +203,22 @@ body {
     flex-direction: column;
 }
 
+.checkout-main-container .main-container .checkout-wrapper .checkout-form-section {
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    background-color: green;
+}
+
+.checkout-product {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem 1.5rem;
+    border-radius: 0.5rem;
+    background-color: #fff;
+}
+
 .popup-box {
     position: fixed;
     top: 5.625rem;
@@ -285,7 +301,23 @@ body {
     gap: 0;
 }
 
+.checkout-main-container .main-container .checkout-wrapper .checkout-form-section-title {
+    text-transform: uppercase;
+}
 
+.checkout-form-section .checkout-form-inputs {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.checkout-form-section .checkout-form-inputs .form-details {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
 
 .product-category {
     position: relative;
@@ -735,6 +767,10 @@ hr {
 
     /* Your styles for the medium breakpoint here */
 
+    .checkout-main-container .main-container .checkout-wrapper .checkout-form-section {
+        padding: 1.875rem 1.75rem;
+    }
+
     .main-container {
         gap: 6rem;
     }
@@ -819,12 +855,31 @@ hr {
     .footer .footer-container .footer-content .footer-copy {
         text-align: unset;
     }
+    .checkout-main-container .main-container .checkout-wrapper .checkout-form-section-title {
+        font-size: 2rem;
+    }
+
+    .checkout-product {
+        padding: 2rem;
+    }
 }
 
 /* Large (lg) */
 @media (min-width: 1024px) {
 
     /* Your styles for the large breakpoint here */
+
+    .checkout-product {
+        margin-top: 0;
+        width: 21.875rem;
+        border-radius: 0.5rem;
+        background-color: #fff;
+    }
+
+    .checkout-main-container .main-container .checkout-wrapper .checkout-form-section {
+        flex-grow: 1;
+        padding: 3.375rem 3rem;
+    }
 
     .checkout-main-container .main-container .checkout-wrapper {
         margin-top: 3.25rem;
@@ -953,7 +1008,7 @@ hr {
 /* Extra Large (xl) */
 @media (min-width: 1280px) {
 
-    
+
 }
 
 /* 2XL (2xl) */
