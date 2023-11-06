@@ -68,8 +68,6 @@ body {
 
 .popup-box {
     position: fixed;
-    transition: opacity 0.3s, transform 0.3s;
-    opacity: 0;
     top: 5.625rem;
     left: 0;
     width: 100%;
@@ -77,6 +75,11 @@ body {
     z-index: 2;
     overflow: auto;
     background-color: #10101066
+}
+
+#popup-box-id {
+    display: none;
+    visibility: hidden;
 }
 
 .popup-menu {
