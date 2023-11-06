@@ -617,7 +617,7 @@ h2 {
 .btn-gray {
     background-color: #000;
     color: #fff;
-    border-color: #000;
+    border-color: #000 !important;
 }
 
 .btn-styles {
@@ -1000,7 +1000,7 @@ hr {
     .product-home-one-content {
         width: 21.8125rem;
     }
-    
+
     .product-home-one-image {
         content: url("assets/copied/image-speaker-zx9.tablet.png");
         width: 12.325625rem;
