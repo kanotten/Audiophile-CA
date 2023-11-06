@@ -109,6 +109,69 @@ body {
     justify-content: space-between;
 }
 
+.cart-section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cart-section-header .cart-list-size {
+    font-size: 1.125rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.cart-section-header .remove-all-button {
+    color: #10101080;
+    text-decoration: underline;
+    font-weight: 500;
+    font-size: .9375rem;
+}
+
+.cart-section .cart-list .empty-text {
+    margin: auto;
+    font-weight: 700;
+}
+
+.cart-section .cart-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    height: 15rem;
+    overflow: auto;
+    scrollbar-width: none;
+}
+
+.text-black {
+    color: #10101080;
+}
+
+.cart-section-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cart-section-footer .total-text {
+    text-transform: uppercase;
+}
+
+.cart-section-footer .total-price {
+    font-weight: 700;
+    font-size: 1.125rem;
+}
+
+.tranparent-container .cart-wrapper .shopping-cart-container .checkout-button {
+    margin-top: auto;
+    width: 100%;
+    justify-content: center;
+}
+
+.checkout-button {
+    width: auto;
+    justify-content: center;
+}
+
 .popup-box {
     position: fixed;
     top: 5.625rem;
@@ -366,6 +429,15 @@ a,
 input,
 div {
     outline: none;
+}
+
+button {
+
+    font-family: Manrope, sans-serif;
+    border: none;
+    background: none;
+    cursor: pointer;
+
 }
 
 .text-center {
