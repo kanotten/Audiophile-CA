@@ -463,7 +463,6 @@ body {
 }
 
 .categories-section {
-    background-color: yellow;
     display: flex;
     flex-direction: column;
 }
@@ -696,21 +695,12 @@ button {
 .category-item {
     flex: 1;
     position: relative;
-    background-color: #e0e0e0;
-    border: 1px solid #ccc;
-    /* padding: 2px; */
+    background-color: var(--quaternary);
     margin: 5px;
-
-    background-color: pink;
-
     display: flex;
     flex-direction: column;
-
     justify-content: center;
-    /* Center horizontally */
     align-items: center;
-    /* Center vertically */
-
 }
 
 .product-home {
@@ -724,9 +714,8 @@ button {
 }
 
 .content-image {
-    background-color: blue;
-    width: 100px;
-    height: 120px;
+    width: 95px;
+    height: 122px;
     position: absolute;
     top: 0;
 }
@@ -743,21 +732,22 @@ button {
     font-size: .9375rem;
     padding-top: 1rem;
     margin-bottom: 1.0625rem;
-    color: #e8e6e3;
+    /* color: #e8e6e3; */
 }
 
 .content-shop-button {
     margin: 0 auto;
     gap: .8125rem;
     border-color: currentcolor;
-    color: rgba(232, 230, 227, 0.5);
+    color: var(--secondary);
     padding: 0;
     height: auto;
     border: none;
+    text-decoration: none;
 }
 
 .category-content {
-    background-color: green;
+    background-color: var(--tertiary);
     height: 150px;
     width: 100%;
     margin-top: 3.5rem;
