@@ -993,6 +993,9 @@ hr {
         grid-template-columns: 1fr 1fr;
         column-gap: 1.875rem;
     }
+    .product-home-one-content .product-home-one-title {
+        font-size: 3.5rem;
+    }
 }
 
 /* Large (lg) */
@@ -1008,6 +1011,10 @@ hr {
         place-items: center;
         background-position: -90px -50px;
         padding: 0 5.9375rem;
+    }
+
+    .product-home-one-content .product-home-one-title {
+        text-align: left;
     }
 
     .checkout-product {
