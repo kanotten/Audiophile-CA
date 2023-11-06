@@ -169,6 +169,10 @@ body {
     justify-content: center;
 }
 
+.checkout-main-container .main-container .checkout-wrapper {
+    margin-top: 1.5rem;
+}
+
 .checkout-button {
     width: auto;
     justify-content: center;
@@ -821,7 +825,15 @@ hr {
 @media (min-width: 1024px) {
 
     /* Your styles for the large breakpoint here */
-     .main-container {
+
+    .checkout-main-container .main-container .checkout-wrapper {
+        margin-top: 3.25rem;
+        display: flex;
+        gap: 1.875rem;
+        align-items: flex-start;
+    }
+
+    .main-container {
         gap: 10rem;
     }
 
