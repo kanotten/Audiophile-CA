@@ -1011,6 +1011,10 @@ hr {
         content: url("assets/copied/image-speaker-zx9.tablet.png");
         width: 12.325625rem;
     }
+
+    .category-product-image {
+        margin-bottom: 3.25rem;
+    }
 }
 
 /* Large (lg) */
@@ -1178,6 +1182,11 @@ hr {
     .product-home-one-image {
         content: url("assets/copied/image-speaker-zx9.desktop.png");
         width: 100% !important;
+    }
+
+    .category-product-image {
+        width: 50%;
+        margin-bottom: 0;
     }
 }
 
