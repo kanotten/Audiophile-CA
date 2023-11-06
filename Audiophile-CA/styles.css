@@ -615,6 +615,8 @@ hr {
 @media (min-width: 1024px) {
 
     /* Your styles for the large breakpoint here */
+
+
     .best-audio-section .best-audio-content .best-audio-title {
         margin-top: 0rem;
     }
@@ -627,6 +629,11 @@ hr {
     .best-audio-title-span {
         display: inline;
         /* Keep the span inline */
+    }
+
+    .product-home-two {
+        padding-left: 5.9375rem;
+        background-image: url(assets/home/desktop/image-speaker-zx7.jpg);
     }
 }
 
