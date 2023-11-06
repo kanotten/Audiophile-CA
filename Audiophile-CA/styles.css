@@ -495,7 +495,7 @@ body {
 
 .product-home-one .product-home-one-image-container .product-home-one-image {
     margin-bottom: 2rem;
-    width: 100%;
+    width: 10.765625rem;
 }
 
 .best-audio-section {
@@ -1000,6 +1000,11 @@ hr {
     .product-home-one-content {
         width: 21.8125rem;
     }
+    
+    .product-home-one-image {
+        content: url("assets/copied/image-speaker-zx9.tablet.png");
+        width: 12.325625rem;
+    }
 }
 
 /* Large (lg) */
@@ -1166,6 +1171,7 @@ hr {
 
     .product-home-one-image {
         content: url("assets/copied/image-speaker-zx9.desktop.png");
+        width: 100%;
     }
 }
 
