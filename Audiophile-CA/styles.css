@@ -522,12 +522,6 @@ body {
     text-align: center;
 }
 
-.btn-gray {
-    background-color: #000;
-    color: #fff;
-    border-color: #000;
-}
-
 .btn-black {
     color: #000;
     border-color: #000;
@@ -634,6 +628,7 @@ h2 {
     font-weight: 700;
     padding: 0 1.875rem;
     border: 2px solid;
+    text-decoration: none;
 }
 
 button,
