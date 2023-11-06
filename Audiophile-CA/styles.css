@@ -1000,6 +1000,12 @@ hr {
     .product-home-one-content {
         width: 21.8125rem;
     }
+    #speaker-image-id-1 {
+        content: url("assets/copied/speaker-1-tablet.jpg");
+    }
+    #speaker-image-id-2 {
+        content: url("assets/copied/speaker-2-tablet.jpg");
+    }
 
     .product-home-one-image {
         content: url("assets/copied/image-speaker-zx9.tablet.png");
