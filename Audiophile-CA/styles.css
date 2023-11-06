@@ -548,6 +548,8 @@ hr {
     .product-home-two {
         padding-left: 3.875rem;
         background-image: url(assets/home/tablet/image-speaker-zx7.jpg);
+        background-size: 688px 320.5px;
+
     }
 
     .best-audio-section .best-audio-content .best-audio-title {
