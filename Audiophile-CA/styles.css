@@ -83,13 +83,13 @@ body {
     justify-content: center;
 }
 
-.tranparent-container .cart-wrapper {
+.transparent-container .cart-wrapper {
     width: 100%;
     max-width: 69.375rem;
     display: flex;
 }
 
-.tranparent-container .cart-wrapper .shopping-cart-container {
+.transparent-container .cart-wrapper .shopping-cart-container {
     width: 100%;
     max-width: 23.5625rem;
     height: 30.5rem;
