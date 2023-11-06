@@ -469,7 +469,6 @@ body {
 }
 
 .home-products-section {
-    background-color: green;
     display: flex;
     flex-direction: column;
     align-items: center;
