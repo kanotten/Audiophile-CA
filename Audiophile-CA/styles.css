@@ -1171,7 +1171,7 @@ hr {
 
     .product-home-one-image {
         content: url("assets/copied/image-speaker-zx9.desktop.png");
-        width: 100%;
+        width: 100% !important;
     }
 }
 
