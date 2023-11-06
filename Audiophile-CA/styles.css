@@ -474,7 +474,7 @@ div {
     text-align: center;
 }
 
-header {
+nav {
     display: flex;
     justify-content: space-between;
     padding: 2rem 1.5rem;
@@ -485,6 +485,26 @@ header {
     z-index: 2;
     background-color: black;
     width: 100%;
+}
+
+.category-header {
+    width: 100%;
+    padding-top: 5.5rem;
+    background-color: green;
+}
+
+.category-header-container {
+    height: 6.375rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.category-header-title {
+    color: rgb(232, 230, 227);
+    font-size: 1.75rem;
+    text-transform: uppercase;
+    text-align: center;
 }
 
 .nav-desktop {
