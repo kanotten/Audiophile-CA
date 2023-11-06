@@ -495,7 +495,7 @@ body {
 
 .product-home-one .product-home-one-image-container .product-home-one-image {
     margin-bottom: 2rem;
-    width: 10.765625rem;
+    width: 100%;
 }
 
 .best-audio-section {
@@ -1162,6 +1162,10 @@ hr {
     .hero-banner-section {
         background-image: url("assets/home/desktop/image-hero.jpg");
         background-size: cover;
+    }
+
+    .product-home-one-image {
+        content: url("assets/copied/image-speaker-zx9.desktop.png");
     }
 }
 
