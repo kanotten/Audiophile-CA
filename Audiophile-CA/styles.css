@@ -66,6 +66,29 @@ body {
 
 }
 
+.cart-back-container {
+    position: fixed;
+    top: 5.625rem;
+    left: 0;
+    width: 100%;
+    height: calc(100% - 5.625rem);
+    background-color: #10101066;
+    z-index: 2;
+    overflow: auto;
+}
+
+.transparent-container {
+    padding: 1.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.tranparent-container .cart-wrapper {
+    width: 100%;
+    max-width: 69.375rem;
+    display: flex;
+}
+
 .popup-box {
     position: fixed;
     top: 5.625rem;
@@ -165,7 +188,7 @@ body {
     background-color: #d87d4a;
     padding: 3.4375rem 1.5rem;
     border-radius: 0.5rem;
-    background-image: url(/assets/pattern-circles.1e4fdc35.svg);
+    background-image: url("assets/pattern-circles.1e4fdc35.svg");
     background-size: 31.25rem;
     background-position: center -100px;
     background-repeat: no-repeat;
@@ -237,7 +260,7 @@ body {
     gap: 2rem;
     padding: 6.3125rem 1.5rem;
     border-radius: 0.5rem;
-    background-image: url(assets/home/mobile/image-speaker-zx7.jpg);
+    background-image: url("assets/home/mobile/image-speaker-zx7.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -544,13 +567,21 @@ hr {
 
     /* Your styles for the medium breakpoint here */
 
+    .tranparent-container .cart-wrapper .shopping-cart-container {
+        padding: 1.9375rem 2.0625rem;
+    }
+
+    .transparent-container {
+        padding: 1.5rem 2.5rem;
+    }
+
     .layout-category {
         padding: 6rem 2.5rem;
     }
 
     .product-home-two {
         padding-left: 3.875rem;
-        background-image: url(assets/home/tablet/image-speaker-zx7.jpg);
+        background-image: url("assets/home/tablet/image-speaker-zx7.jpg");
         background-size: 688px 320.5px;
 
     }
