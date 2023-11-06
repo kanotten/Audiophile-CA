@@ -881,6 +881,10 @@ hr {
     .product-home-three-image {
         content:url("assets/copied/image-earphones-yx1-tablet.jpg");
     }
+    
+    .best-audio-image {
+        content:url("assets/copied/headphones-tablet-1.jpg");
+    }
 
     .checkout-form-section .checkout-form-inputs .form-details-inputs {
         display: grid;
