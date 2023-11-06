@@ -72,7 +72,7 @@ body {
     left: 0;
     width: 100%;
     height: calc(100% - 5.625rem);
-    background-color: #10101066;
+    background-color: blue;
     z-index: 2;
     overflow: auto;
 }
