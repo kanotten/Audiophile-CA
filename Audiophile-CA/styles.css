@@ -226,6 +226,47 @@ body {
     color: #d87d4a;
 }
 
+.form-radio-inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.form-radio-inputs .radio-input-container {
+    height: 3.5rem;
+    padding: 0 1rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: .875rem;
+    font-weight: 700;
+    border-radius: 0.5rem;
+    border: solid 0.0625rem #cfcfcf;
+}
+
+.form-radio-inputs .radio-input-container input[type=radio] {
+    appearance: none;
+    cursor: pointer;
+    width: 1.25rem;
+    height: 1.25rem;
+    border: solid 0.0625rem #cfcfcf;
+    border-radius: 50%;
+    display: flex;
+}
+
+.cash-section {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.checkout-form-section {
+    flex: 1;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    background-color: #fff;
+}
+
 .popup-box {
     position: fixed;
     top: 5.625rem;
