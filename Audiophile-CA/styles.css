@@ -1003,6 +1003,10 @@ hr {
 
     /* Your styles for the large breakpoint here */
 
+    .product-home-one-content .product-home-one-text {
+        text-align: left;
+    }
+
     .product-home-one {
         height: 35rem;
         display: grid;
