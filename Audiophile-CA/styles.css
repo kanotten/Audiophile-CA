@@ -878,6 +878,10 @@ hr {
         margin-bottom: 0;
     }
 
+    .product-home-three-image {
+        content:url("assets/copied/image-earphones-yx1-tablet.jpg");
+    }
+
     .checkout-form-section .checkout-form-inputs .form-details-inputs {
         display: grid;
         grid-template-columns: 1fr 1fr;
