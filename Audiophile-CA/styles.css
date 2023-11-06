@@ -267,6 +267,34 @@ body {
     background-color: #fff;
 }
 
+.checkout-product-title {
+    font-size: 1.125rem;
+    text-transform: uppercase;
+}
+
+.checkout-product-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.checkout-product-prices {
+    text-transform: uppercase;
+}
+
+.checkout-product-prices-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.checkout-product-prices-item-span {
+    font-size: 1.125rem;
+    font-weight: 700;
+    color: #101010;
+}
+
 .popup-box {
     position: fixed;
     top: 5.625rem;
@@ -513,16 +541,13 @@ body {
     border-color: #d87d4a;
 }
 
-.btn-styles {
-    height: 3rem;
-    display: flex;
-    width: fit-content;
-    text-transform: uppercase;
-    font-size: .8125rem;
-    align-items: center;
-    font-weight: 700;
-    padding: 0 1.875rem;
-    border: 2px solid;
+.btn-default:disabled {
+    background-color: #fbaf85;
+    border-color: #fbaf85;
+}
+
+.btn-styles:disabled {
+    cursor: not-allowed;
 }
 
 .product-home-two {
