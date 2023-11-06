@@ -16,7 +16,7 @@ body {
     font-family: 'Manrope', sans-serif;
     margin: 0;
     min-height: 100vh;
-    
+
 }
 
 .no-scroll {
@@ -86,7 +86,7 @@ body {
     border-radius: 0 0 0.5rem 0.5rem;
     clip-path: inset(0%);
 }
-    
+
 .list-container {
     display: flex;
     flex-direction: column;
@@ -589,6 +589,11 @@ li a {
     .footer .footer-container .footer-content .footer-section {
         flex-direction: row;
         gap: 2.125rem;
+    }
+
+    .footer-section {
+        flex-direction: row;
+        justify-content: space-between;
     }
 
     ul {
