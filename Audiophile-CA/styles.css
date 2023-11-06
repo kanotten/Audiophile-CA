@@ -239,7 +239,7 @@ body {
     background-repeat: no-repeat;
 }
 
-.product-home-two .product-home-two-title {
+.product-home-two-title {
     font-size: 1.75rem;
     text-transform: uppercase;
 }
@@ -342,6 +342,10 @@ div {
 
 .main-container {
     gap: 7.5rem;
+}
+
+.layout-category {
+    padding: 2.5rem 1.5rem 7.5rem;
 }
 
 .categories {
@@ -536,6 +540,15 @@ hr {
 @media (min-width: 768px) {
 
     /* Your styles for the medium breakpoint here */
+
+    .layout-category {
+        padding: 6rem 2.5rem;
+    }
+
+    .product-home-two {
+        padding-left: 3.875rem;
+        background-image: url(assets/home/tablet/image-speaker-zx7.jpg);
+    }
 
     .best-audio-section .best-audio-content .best-audio-title {
         font-size: 2.5rem;
