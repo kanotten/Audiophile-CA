@@ -184,7 +184,7 @@ body {
 
 .best-audio-section {
     background-color: purple;
-    /* width: 100%; */
+    width: 100%;
     /* height: 100%; */
 }
 
@@ -270,9 +270,8 @@ body {
     margin-bottom: 2rem;
 }
 
-.best-audio-section {
-    width: 100%;
-}
+
+
 
 .best-audio-section .best-audio-image {
     width: 100%;
@@ -364,7 +363,6 @@ div {
     padding-right: 100px;
     padding-bottom: 100px;
     padding-left: 100px;
-
     gap: 20px;
     /* grid-template-columns: repeat(3, 1fr); Create a 3-column grid */
 }
@@ -552,6 +550,13 @@ hr {
 @media (min-width: 768px) {
 
     /* Your styles for the medium breakpoint here */
+
+    .best-audio-section .best-audio-content .best-audio-title {
+        font-size: 2.5rem;
+        margin-top: 3.9375rem;
+        margin-bottom: 2rem;
+    }
+
     .footer .footer-container .footer-content .footer-section {
         align-items: initial;
         gap: 2rem;
@@ -564,7 +569,7 @@ hr {
         bottom: 0;
         right: 0;
     }
-    
+
 
     .footer .footer-container .footer-content .footer-text {
         text-align: unset;
@@ -612,110 +617,130 @@ hr {
 @media (min-width: 1024px) {
 
     /* Your styles for the large breakpoint here */
+    .best-audio-section .best-audio-content .best-audio-title {
+        margin-top: 0rem;
+    }
+
+    .best-audio-title {
+        white-space: normal;
+        /* Allow line breaks */
+    }
+
+    .best-audio-title-span {
+        display: inline;
+        /* Keep the span inline */
+    }
+}
+
+
+.footer .footer-container .footer-content .footer-section {
+    flex-direction: row;
+    gap: 2.125rem;
+}
+
+.footer .footer-container .footer-content .footer-icons-section {
+    top: 50%;
+    bottom: unset;
+    transform: translateY(-50%);
+}
+
+
+.footer-section {
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer .footer-container .footer-content .footer-text {
+    width: 33.75rem;
+    margin-top: 2.25rem;
+    margin-bottom: 3.5rem;
+}
+
+
+
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.footer .footer-container .footer-content .footer-icons-section {
+    top: 50%;
+    bottom: unset;
+    transform: translateY(-50%);
+}
+
+
+/* Extra Large (xl) */
+@media (min-width: 1280px) {
+
+    /* Your styles for the extra large breakpoint here */
     .footer .footer-container .footer-content .footer-section {
         flex-direction: row;
         gap: 2.125rem;
     }
 
-    .footer .footer-container .footer-content .footer-icons-section {
-        top: 50%;
-        bottom: unset;
-        transform: translateY(-50%);
+    header {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .hero-banner-section {
+        background-image: url("assets/home/desktop/image-hero.jpg");
+        background-size: cover;
+    }
+
+    .menu-toggle-btn {
+        display: none;
+    }
+
+    .nav-desktop {
+        margin: 0 auto;
+        display: block;
+        gap: 1rem;
+    }
+
+
+
+    .nav-desktop ul {
+        display: flex;
+        gap: 1rem;
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    ul {
+        display: block;
+        list-style-type: disc;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        padding-inline-start: 40px;
+    }
+
+    .nav-desktop a {
+        color: white;
+        text-decoration: none;
+        font-size: 13px;
+        font-weight: 700;
+        line-height: 25px;
+        letter-spacing: 2px;
+    }
+
+    .nav-desktop a:hover,
+    .nav-desktop a:focus {
+        color: var(--primary);
     }
 }
 
-    .footer-section {
-        flex-direction: row;
-        justify-content: space-between;
-    }
-
-    .footer .footer-container .footer-content .footer-text {
-        width: 33.75rem;
-        margin-top: 2.25rem;
-        margin-bottom: 3.5rem;
-
-        ul {
-            display: block;
-            list-style-type: disc;
-            margin-block-start: 1em;
-            margin-block-end: 1em;
-            margin-inline-start: 0px;
-            margin-inline-end: 0px;
-            padding-inline-start: 40px;
-        }
-
-        .footer .footer-container .footer-content .footer-icons-section {
-            top: 50%;
-            bottom: unset;
-            transform: translateY(-50%);
-        }
-
-
-        /* Extra Large (xl) */
-        @media (min-width: 1280px) {
-
-            /* Your styles for the extra large breakpoint here */
-            .footer .footer-container .footer-content .footer-section {
-                flex-direction: row;
-                gap: 2.125rem;
-            }
-
-            header {
-                padding-left: 0;
-                padding-right: 0;
-            }
-
-            .hero-banner-section {
-                background-image: url("assets/home/desktop/image-hero.jpg");
-                background-size: cover;
-            }
-
-            .menu-toggle-btn {
-                display: none;
-            }
-
-            .nav-desktop {
-                margin: 0 auto;
-                display: block;
-                gap: 1rem;
-            }
-
-
-
-            .nav-desktop ul {
-                display: flex;
-                gap: 1rem;
-                list-style-type: none;
-                padding: 0;
-                margin: 0;
-            }
-
-            ul {
-                display: block;
-                list-style-type: disc;
-                margin-block-start: 1em;
-                margin-block-end: 1em;
-                margin-inline-start: 0px;
-                margin-inline-end: 0px;
-                padding-inline-start: 40px;
-            }
-
-            .nav-desktop a {
-                color: white;
-                text-decoration: none;
-                font-size: 13px;
-                font-weight: 700;
-                line-height: 25px;
-                letter-spacing: 2px;
-            }
-
-            .nav-desktop a:hover,
-            .nav-desktop a:focus {
-                color: var(--primary);
-            }
-        }
-
-        /* 2XL (2xl) */
-        @media (min-width: 1536px) {
-            /* Your styles for the 2XL breakpoint here */
-        }
+/* 2XL (2xl) */
+@media (min-width: 1536px) {
+    /* Your styles for the 2XL breakpoint here */
+}
