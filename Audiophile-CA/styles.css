@@ -33,6 +33,8 @@ body {
     display: none;
 }
 
+
+
 .hero-banner-inner-container {
     position: relative;
 }
@@ -495,6 +497,10 @@ li a {
 .footer .footer-container {
     width: 100%;
     max-width: 69.375rem;
+}
+
+hr {
+    border: none;
 }
 
 .footer .footer-container .footer-line {
