@@ -877,6 +877,10 @@ hr {
 
     /* Your styles for the medium breakpoint here */
 
+    .product-home-three .product-home-three-image {
+        margin-bottom: 0;
+    }
+
     .checkout-form-section .checkout-form-inputs .form-details-inputs {
         display: grid;
         grid-template-columns: 1fr 1fr;
