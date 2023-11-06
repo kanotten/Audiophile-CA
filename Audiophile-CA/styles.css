@@ -557,6 +557,20 @@ hr {
         gap: 2rem;
     }
 
+    .footer-icons-section {
+        width: fit-content;
+        position: absolute;
+        margin: 0;
+        bottom: 0;
+        right: 0;
+    }
+
+    .footer .footer-container .footer-content .footer-text {
+        text-align: unset;
+    }
+    
+    
+
     .footer .footer-container .footer-line {
         margin: 0 0 3rem;
     }
