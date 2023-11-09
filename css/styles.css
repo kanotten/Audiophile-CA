@@ -44,7 +44,7 @@ body {
 }
 
 .hero-banner-section {
-    background-image: url("assets/home/mobile/image-header.jpg");
+    background-image: url("../assets/home/mobile/image-header.jpg");
     /* background-color: red; */
     background-repeat: no-repeat;
     background-size: contain;
@@ -484,7 +484,7 @@ body {
     background-color: #d87d4a;
     padding: 3.4375rem 1.5rem;
     border-radius: 0.5rem;
-    background-image: url("assets/pattern-circles.1e4fdc35.svg");
+    background-image: url("../assets/pattern-circles.1e4fdc35.svg");
     background-size: 31.25rem;
     background-position: center -100px;
     background-repeat: no-repeat;
@@ -555,7 +555,7 @@ body {
     gap: 2rem;
     padding: 6.3125rem 1.5rem;
     border-radius: 0.5rem;
-    background-image: url("assets/home/mobile/image-speaker-zx7.jpg");
+    background-image: url("../assets/home/mobile/image-speaker-zx7.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -885,11 +885,11 @@ hr {
     }
 
     .product-home-three-image {
-        content: url("assets/copied/image-earphones-yx1-tablet.jpg");
+        content: url("../assets/copied/image-earphones-yx1-tablet.jpg");
     }
 
     .best-audio-image {
-        content: url("assets/copied/headphones-tablet-1.jpg");
+        content: url("../assets/copied/headphones-tablet-1.jpg");
     }
 
     .checkout-form-section .checkout-form-inputs .form-details-inputs {
@@ -924,7 +924,7 @@ hr {
 
     .product-home-two {
         padding-left: 3.875rem;
-        background-image: url("assets/home/tablet/image-speaker-zx7.jpg");
+        background-image: url("../assets/home/tablet/image-speaker-zx7.jpg");
 
 
     }
@@ -961,7 +961,7 @@ hr {
     }
 
     .hero-banner-section {
-        background-image: url("assets/home/tablet/image-header.jpg");
+        background-image: url("../assets/home/tablet/image-header.jpg");
     }
 
     header {
@@ -1009,15 +1009,15 @@ hr {
     }
 
     #speaker-image-id-1 {
-        content: url("assets/copied/speaker-1-tablet.jpg");
+        content: url("../assets/copied/speaker-1-tablet.jpg");
     }
 
     #speaker-image-id-2 {
-        content: url("assets/copied/speaker-2-tablet.jpg");
+        content: url("../assets/copied/speaker-2-tablet.jpg");
     }
 
     .product-home-one-image {
-        content: url("assets/copied/image-speaker-zx9.tablet.png");
+        content: url("../assets/copied/image-speaker-zx9.tablet.png");
         width: 12.325625rem;
     }
 
@@ -1098,7 +1098,7 @@ hr {
 
     .product-home-two {
         padding-left: 5.9375rem;
-        background-image: url(assets/home/desktop/image-speaker-zx7.jpg);
+        background-image: url(../assets/home/desktop/image-speaker-zx7.jpg);
     }
 
 
@@ -1184,12 +1184,12 @@ hr {
     }
 
     .hero-banner-section {
-        background-image: url("assets/home/desktop/image-hero.jpg");
+        background-image: url("../assets/home/desktop/image-hero.jpg");
         background-size: cover;
     }
 
     .product-home-one-image {
-        content: url("assets/copied/image-speaker-zx9.desktop.png");
+        content: url("../assets/copied/image-speaker-zx9.desktop.png");
         width: 100% !important;
     }
 
